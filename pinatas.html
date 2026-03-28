@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gosa Toys Party Supplies - Pinatas</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <div class="logo-text" onclick="window.location.href='index.html'">Gosa Toys Party Supplies</div>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">HOME</a></li>
+                <li><a href="pinatas.html">PINATAS</a></li>
+                <li><a href="toys.html">TOYS AND CANDIES</a></li>
+                <li><a href="supplies.html">PARTY SUPPLIES</a></li>
+                <li><a href="contact.html">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="hero-image" style="background-image: url('bmain.png');">
+            <div class="hero-content">
+                <h1>Our Pinata Collection</h1>
+                <p class="tagline">Premium pinatas to make every celebration memorable</p>
+            </div>
+        </div>
+
+        <section class="product-section">
+            <div class="section-header">
+                <h2>Pinatas</h2>
+                <p>Discover our wide variety of pinatas in different shapes, sizes, and designs perfect for any age and theme.</p>
+            </div>
+            <div class="pinata-grid">
+                <div class="pinata-box"><img src="b1.png" alt="Pinata 1"></div>
+                <div class="pinata-box"><img src="b2.png" alt="Pinata 2"></div>
+                <div class="pinata-box"><img src="b3.png" alt="Pinata 3"></div>
+                <div class="pinata-box"><img src="b4.png" alt="Pinata 4"></div>
+                <div class="pinata-box"><img src="b5.png" alt="Pinata 5"></div>
+                <div class="pinata-box"><img src="b6.png" alt="Pinata 6"></div>
+            </div>
+        </section>
+
+        <section class="product-section">
+            <div class="section-header">
+                <h2>Seasonal Pinatas</h2>
+                <p>Special seasonal collections for holidays, birthdays, and themed celebrations throughout the year.</p>
+            </div>
+            <div class="seasonal-grid">
+                <div class="pinata-box"><img src="c1.png" alt="Seasonal 1"></div>
+                <div class="pinata-box"><img src="c2.webp" alt="Seasonal 2"></div>
+                <div class="pinata-box"><img src="c3.png" alt="Seasonal 3"></div>
+                <div class="pinata-box"><img src="c4.png" alt="Seasonal 4"></div>
+            </div>
+        </section>
+
+        <section class="interactive-section">
+            <div class="pinata-container">
+                <img id="pinata" src="p1.png" alt="Pinata" onclick="shakePinata()">
+            </div>
+            <div id="message" style="display: none;" class="pinata-message">
+                <img src="p2.png" alt="Message">
+                <p>Our pinatas are sure to make your party fun and enjoyable!</p>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Contact: 714-285-1120 | Email: rickgomez714@yahoo.com | © 2026 Party Supplies</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
